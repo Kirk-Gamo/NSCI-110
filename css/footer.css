@@ -1,0 +1,173 @@
+/* @font-face {
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 100;
+    src: local('SF UI Display'), url('https://fonts.cdnfonts.com/s/14247/sf-ui-display-ultralight-58646b19bf205.woff') format('woff');
+}
+@font-face {
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 500;
+    src: local('SF UI Display'), url('https://fonts.cdnfonts.com/s/14247/sf-ui-display-medium-58646be638f96.woff') format('woff');
+}
+@font-face {
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 600;
+    src: local('SF UI Display'), url('https://fonts.cdnfonts.com/s/14247/sf-ui-display-semibold-58646eddcae92.woff') format('woff');
+}
+@font-face {
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 800;
+    src: local('SF UI Display'), url('https://fonts.cdnfonts.com/s/14247/sf-ui-display-heavy-586470160b9e5.woff') format('woff');
+} */
+
+footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-footer {
+    background-color: #09222E;
+    color: white;
+    padding: 20px 50px;
+    margin-top: 100px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo,
+.footer-units {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding-right: 10vw;
+}
+
+.footer-units ul {
+    list-style: none;
+    padding: 0;
+    /* font-family: 'SF UI Display'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 180%;
+    margin-top: 8px;
+}
+
+.footer-units ul li a, .footer-logo a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.site-footer h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    /* font-family: 'SF UI Display'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.site-footer hr{
+    margin-top: 10vh;
+    opacity: 50%;
+    border: none;
+    border-top: 1px solid white;
+}
+
+.footer-units hr{
+    margin: 0px 40px 0px 0px;
+    opacity: 50%;
+    border: none;
+    border-top: 1px solid white;
+}
+
+.footer-logo h3 {
+    margin-top: 0;
+    /* font-family: 'SF UI Display'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+.site-footer p {
+    /* font-family: 'SF UI Display'; */
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 150%;
+    text-transform: none
+}
+
+.lowersec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-copyright{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.footer-terms {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.footer-terms ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-terms ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-terms ul li a {
+    color: #fff;
+    text-decoration: none;
+    /* font-family: 'SF UI Display'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+
+.contact i{
+    font-size: 30px;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+
+.contact i:hover{
+    scale: 130%;
+}
+
+.footer-units ul li a:hover, .footer-terms ul li a:hover{
+    text-decoration: underline;
+    font-size: 110%;
+}
